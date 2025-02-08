@@ -8,7 +8,7 @@ console.log('running')
 app.get('/api',function(req,res){
     res.send('server working')
 })
-
+console.log("2 running")
 app.listen(port,function(){
     console.log(`http://localhost:3000`)
 })
